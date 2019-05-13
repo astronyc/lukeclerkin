@@ -27,10 +27,19 @@
 </footer>
 
 </div>
+
+<div class="landing-page">
+  <div class="title-wrap">
+    <h1>luke clerkin</h1>
+  </div>
+  <div class="button-wrap">
+    <button class="landing-button">enter</button>
+  </div>
+</div>
+
 <!-- scripts go here -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script type='text/javascript' src='/js/jquery.mousewheel.min.js'></script>
 
 <?php wp_footer(); ?>
 </body>

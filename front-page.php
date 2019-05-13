@@ -7,14 +7,6 @@ $home_image = get_field('home_image');
 
 get_header(); ?>
 
-<div class="landing-page">
-    <div class="title-wrap">
-        <h1>Luke Clerkin</h1>
-    </div>
-    <div class="button-wrap">
-        <button class>Enter Site</button>
-    </div>
-</div>
 
 <div class="home-page">
     <div class="page-wrap">

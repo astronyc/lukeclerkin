@@ -23,6 +23,7 @@
 ?>
 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
 </head>
 
@@ -47,6 +48,7 @@
 							'items_wrap' => '%3$s', // removes the <ul> from the menu as we're using our own markup
 							'fallback_cb' => mytheme_menu_fallback
 						)); ?>
+
 						</ul>
 					</nav>
 				</div>
