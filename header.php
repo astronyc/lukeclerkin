@@ -33,14 +33,15 @@
 	<div class="site-container">
 		<header id="primary-nav">
 			<div class="inner-wrap">
-				<div class="logo-wrap cl-effect-14">
+				<div class="logo-wrap cl-effect-14 title">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
 						<h1>Luke Clerkin</h1>
 					</a>
 				</div>
-				<div class="links-wrap">
+				<div class="menu-items">
 					<nav class="desktop-nav cl-effect-21">
-						<ul>
+
+						<ul class="menu">
 
 							<?php wp_nav_menu(array(
 							'theme_location' => 'primary',
@@ -48,7 +49,6 @@
 							'items_wrap' => '%3$s', // removes the <ul> from the menu as we're using our own markup
 							'fallback_cb' => mytheme_menu_fallback
 						)); ?>
-
 						</ul>
 					</nav>
 				</div>

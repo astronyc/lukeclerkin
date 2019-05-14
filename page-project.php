@@ -31,7 +31,6 @@ else :
 endif;
 
 ?>
-            <button id="slide-left"> hello yes </button>
         </div>
     </div>
 </div>
