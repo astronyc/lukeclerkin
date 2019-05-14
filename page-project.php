@@ -7,7 +7,7 @@ get_header(); ?>
 
 
 <div class="project-page">
-    <div class="page-wrap">
+    <div id="content" class="page-wrap">
         <div class="image-wrap">
 
             <?php
@@ -31,10 +31,11 @@ else :
 endif;
 
 ?>
+            <button id="slide-left"> hello yes </button>
         </div>
     </div>
 </div>
-</div>
+
 
 
 
